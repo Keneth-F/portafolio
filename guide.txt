@@ -1,0 +1,47 @@
+le pase a article animation y block
+footer naming
+content-card 580px?
+btn sidebar a global
+title modal bug
+en portfolio dar mas colors y side bar
+mantener theme
+background svg
+funcionar form
+
+data, css
+pasar a componentes para poner animations
+portfolio refactor select
+pasar a async/await
+
+
+
+ClientID=225ddfa410bd486d89378ed8a01fc8dd
+ClientSecret=d29a9da79bec400da89ca486649fd0c3
+
+https://accounts.spotify.com/authorize?client_id=225ddfa410bd486d89378ed8a01fc8dd&response_type=code&redirect_uri=http
+%3A%2F%2Flocalhost:3000&scope=user-read-currently-playing
+
+callback=
+http://localhost:3000/?code=AQD1aep-VFgIL2J1qM3Vda45u1rBW3Pu6iN0XmuORKTIdL7XM9Eg2tKsN2iu_rHXnAj8N_v7i6-Bmg462N9DNajMURFvsrQJcc-ZkRIkqOl-0U0sZZf11zl8vlgQMA8muDwJj4x5kjTemmhgrp5GMVGT2b--UsEYSBdfO2OmKQVmIJIl3gLQzXkKJUvIPNVkRSKCTiWt
+code=AQD1aep-VFgIL2J1qM3Vda45u1rBW3Pu6iN0XmuORKTIdL7XM9Eg2tKsN2iu_rHXnAj8N_v7i6-Bmg462N9DNajMURFvsrQJcc-ZkRIkqOl-0U0sZZf11zl8vlgQMA8muDwJj4x5kjTemmhgrp5GMVGT2b--UsEYSBdfO2OmKQVmIJIl3gLQzXkKJUvIPNVkRSKCTiWt
+
+refresh=BQAUfhrQ1NI8o4-LEmlSsE3gxaP3NzQ8Jtd_QeUKHrpuOMwb5oDU3Zfj-FA8_1Pcf2yEvoQPlGJpBwKClxFwHdtsqTV16hojvgAqB4hEN6QoL51TCYHAiMy9eZ5z1PzouOIUxvNbnwsJw6i22KZkgY4kXNyr1PUK9kxCVNpaFsKTNaJ0b458EYbk7H9R5Jq1ZMLD9Htkwi4
+
+encode=
+225ddfa410bd486d89378ed8a01fc8dd:d29a9da79bec400da89ca486649fd0c3
+
+base64=MjI1ZGRmYTQxMGJkNDg2ZDg5Mzc4ZWQ4YTAxZmM4ZGQ6ZDI5YTlkYTc5YmVjNDAwZGE4OWNhNDg2NjQ5ZmQwYzM=
+
+
+
+curl -H "Authorization: Basic MjI1ZGRmYTQxMGJkNDg2ZDg5Mzc4ZWQ4YTAxZmM4ZGQ6ZDI5YTlkYTc5YmVjNDAwZGE4OWNhNDg2NjQ5ZmQwYzM=" -d grant_type=authorization_code -d code= -d redirect_uri=http%3A%2F%2Flocalhost:3000 https://accounts.spotify.com/api/token
+
+{"access_token":"BQAUfhrQ1NI8o4-LEmlSsE3gxaP3NzQ8Jtd_QeUKHrpuOMwb5oDU3Zfj-FA8_1Pcf2yEvoQPlGJpBwKClxFwHdtsqTV16hojvgAqB4hEN6QoL51TCYHAiMy9eZ5z1PzouOIUxvNbnwsJw6i22KZkgY4kXNyr1PUK9kxCVNpaFsKTNaJ0b458EYbk7H9R5Jq1ZMLD9Htkwi4","token_type":"Bearer","expires_in":3600,"refresh_token":"AQCVTYmMw6Hl-zXkBJMUOYwJr7dbQE-Tex15s4gbmNUCD3kGksnysK9LjPmsp4dSyDHvRRh6LAp2GlxdcfC2GCLAGp5Lc5ga7dYZ2YYYaam8oZZ-5WYYq8Ii-7Qi7twufJ8","scope":"user-read-currently-playing"}
+
+
+
+
+
+
+
+
