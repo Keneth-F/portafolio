@@ -4,7 +4,7 @@ import { useRouter } from 'next/router'
 
 
 
-export const Navlink = ({ children, activeClassName, className, ...props }) => {
+const Navlink = ({ children, activeClassName, className, ...props }) => {
   const { asPath, isReady } = useRouter()
   const [computedClassName, setComputedClassName] = useState(className)
 
@@ -41,3 +41,4 @@ export const Navlink = ({ children, activeClassName, className, ...props }) => {
     </Link>
   )
 }
+export default Navlink

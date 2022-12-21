@@ -2,7 +2,7 @@ import { useState } from 'react';
 import style from '../../styles/components/Navbar.module.css'
 import Contact from './Contact';
 import Modal from './Modal';
-import { Navlink } from './Navlink'
+import Navlink from './Navlink'
 function Navbar() {
   const [showModal, setShowModal] = useState(false);
   return (
