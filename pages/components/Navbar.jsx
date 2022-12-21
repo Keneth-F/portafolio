@@ -37,16 +37,19 @@ function Navbar() {
           </Navlink>
         </li>
         <li className={style["navbar-item"]}>
-          <button className={style["navbar-link"]} onClick={() => setShowModal(true)}>Contact</button>
+          <button className={style["navbar-link"]} onClick={(e) => setShowModal(true)}>Contact</button>
         </li>
       </ul>
-      {showModal && <Modal
-        onClose={() => setShowModal(false)}
-        show={showModal}
+      {showModal &&
+        <div>
+          <Modal
+            onClose={() => setShowModal(false)}
+            show={showModal}
 
-        title={<h1 className={`h1`}>Contact</h1>}
-      ><Contact />
-      </Modal>}
+            title={<h1 className={`h1`}>Contact</h1>}
+          ><Contact />
+          </Modal>
+        </div>}
     </nav>
   )
 }
