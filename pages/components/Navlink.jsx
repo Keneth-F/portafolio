@@ -25,7 +25,6 @@ const Navlink = ({ children, activeClassName, className, ...props }) => {
   }, [
     asPath,
     isReady,
-    props.as,
     props.href,
     activeClassName,
     className,
@@ -33,7 +32,7 @@ const Navlink = ({ children, activeClassName, className, ...props }) => {
   ])
 
   return (
-    <Link className={computedClassName} {...props}>
+    <Link className={computedClassName} href={props.href ?? ' '}>
       {children}
     </Link>
   )
