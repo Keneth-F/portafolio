@@ -1,8 +1,15 @@
-import { useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 
 const Modal = ({ onClose, children, title, show }) => {
   const modalWrapperRef = useRef();
+  const ref = useRef(null)
+  const [mounted, setMounted] = useState(false)
+
+  useEffect(() => {
+    ref.current = document.querySelector("#modal-root")
+    setMounted(true)
+  }, [])
 
   const backDropHandler = e => {
     if (!modalWrapperRef?.current?.contains(e.target)) {
@@ -35,10 +42,8 @@ const Modal = ({ onClose, children, title, show }) => {
     </article >
   );
 
-  return createPortal(
-    modalContent,
-    globalThis.document.getElementById("modal-root")
-  );
+  return (mounted && ref.current) ? createPortal(modalContent, ref.current) : null
+
 
 };
 
