@@ -15,9 +15,9 @@ function Navbar() {
         </li>
 
         <li className={style["navbar-item"]}>
-          <Navlink activeClassName={style["active"]} className={style["navbar-link"]} href="/CVKenethFariñasGuzman.pdf" target="_blank">
+          <a className={style["navbar-link"]} href="/CVKenethFariñasGuzman.pdf" target="_blank">
             Resume
-          </Navlink>
+          </a>
         </li>
 
         <li className={style["navbar-item"]}>

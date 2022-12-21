@@ -10,10 +10,7 @@ const Navlink = ({ children, activeClassName, className, ...props }) => {
 
   useEffect(() => {
     if (isReady) {
-      const linkPathname = new URL(
-        (props.as || props.href),
-        location.href
-      ).pathname
+      const linkPathname = new URL(props.href, location.href).pathname
       const activePathname = new URL(asPath, location.href).pathname
 
       const newClassName =
