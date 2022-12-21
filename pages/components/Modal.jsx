@@ -37,7 +37,7 @@ const Modal = ({ onClose, children, title, show }) => {
 
   return createPortal(
     modalContent,
-    document.getElementById("modal-root")
+    globalThis.document.getElementById("modal-root")
   );
 
 };
