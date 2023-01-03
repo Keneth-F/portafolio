@@ -186,6 +186,16 @@ export const tools = [
 
 export const projects = [
   {
+    name: "School Web Site",
+    description:
+      "a MPA School Web Site thats include a landing section and a admin dasboard",
+    image_path: "/lsj.png",
+    deployed_url: "liceosanjoseupala.ed.cr",
+    github_url: "#",
+    category: ["Node"],
+    key_techs: ["Vanilla JS", "HTML", "CSS", "Firebase"],
+  },
+  {
     name: "Simple ApiRest",
     description:
       "an application programming interface (API or web API) that conforms to the constraints of REST architectural style and allows for interaction with RESTful web services.",
