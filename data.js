@@ -191,7 +191,7 @@ export const projects = [
       "a MPA School Web Site thats include a landing section and a admin dasboard",
     image_path: "/lsj.png",
     deployed_url: "liceosanjoseupala.ed.cr",
-    github_url: "liceosanjoseupala.ed.cr",
+    github_url: "http://liceosanjoseupala.ed.cr",
     category: ["Node"],
     key_techs: ["Vanilla JS", "HTML", "CSS", "Firebase"],
   },
